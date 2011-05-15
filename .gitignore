@@ -1,9 +1,11 @@
 *~
 .DS_Store
+attachments/
 capybara-*.html
 config/database.yml
 db/*.db
 db/*.sql
+db/*.sqlite3
 doc/api
 doc/app
 log/*.log

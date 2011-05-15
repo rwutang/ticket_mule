@@ -5,7 +5,6 @@ gem 'devise'
 gem 'haml-rails'
 gem 'pg'
 gem 'rails'
-gem 'will_paginate', '3.0.pre2'
 
 group :development, :test do
   gem 'capybara'
@@ -16,7 +15,7 @@ group :development, :test do
   gem 'launchy'
   gem 'pickler'
   gem 'rspec-rails'
-  gem 'ruby-debug'
+  gem 'ruby-debug19'
   gem 'shoulda'
   gem 'spork'
 end
