@@ -177,6 +177,7 @@ DEPENDENCIES
   pg
   pickler
   rails
+  rake (= 0.8.7)
   rspec-rails
   ruby-debug19
   shoulda
