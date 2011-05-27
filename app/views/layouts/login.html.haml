@@ -1,0 +1,12 @@
+!!!
+%html{:lang => "#{I18n.locale}"}
+  %head
+    %meta{:charset => "UTf-8"}
+    %title TicketMule
+    = stylesheet_link_tag 'application'
+    = javascript_include_tag :defaults
+    = csrf_meta_tag
+  %body
+    %article#sign-in
+      = yield
+    %footer

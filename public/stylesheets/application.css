@@ -1,0 +1,18 @@
+/* ==== RESET ================================= */
+@import url('reset.css');
+
+body { background-color: #eee; color: #333; font: 12px/16px 'Lucida Grande', Arial, sans-serif; }
+
+h1, h2, h3 { margin: 0 0 16px 0; font-weight: bold; height: auto; }
+h1 { font-size: 24px; }
+h2 { font-size: 20px; }
+h3 { font-size: 16px; }
+strong { font-weight: bold; }
+
+.alert, .notice { color: #c00; font-weight: bold; }
+.notice { color: #585; }
+
+#sign-in { background-color: #fff; margin: 50px auto 16px; padding: 12px; width: 250px; text-align: center; }
+#devise-links { margin: 0 auto; width: 270px; }
+#user_email, #user_password { font-size: 14px; padding: 3px; margin: 8px 0; }
+#remember { margin: 0 0 16px 0; }

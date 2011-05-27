@@ -1,0 +1,15 @@
+!!!
+%html{:lang => "#{I18n.locale}"}
+  %head
+    %meta{:charset => "utf-8"}
+    %title TicketMule
+    = stylesheet_link_tag 'application'
+    = javascript_include_tag :defaults
+    = csrf_meta_tag
+  %body
+    %header
+    %article
+      - flash.each do |name, msg|
+        %div(class=name)= msg
+      = yield
+    %footer
