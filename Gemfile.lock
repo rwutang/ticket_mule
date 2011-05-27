@@ -172,6 +172,7 @@ DEPENDENCIES
   devise
   factory_girl_rails
   ffaker
+  haml
   haml-rails
   launchy
   pg

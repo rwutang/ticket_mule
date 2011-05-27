@@ -2,7 +2,7 @@ source "http://rubygems.org"
 
 gem 'decent_exposure'
 gem 'devise'
-gem 'haml-rails'
+gem 'haml'
 gem 'pg'
 gem 'rails'
 gem 'rake', '0.8.7'
@@ -13,6 +13,7 @@ group :development, :test do
   gem 'database_cleaner'
   gem 'factory_girl_rails'
   gem 'ffaker'
+  gem 'haml-rails'
   gem 'launchy'
   gem 'pickler'
   gem 'rspec-rails'
