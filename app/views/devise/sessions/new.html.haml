@@ -16,7 +16,7 @@
       = f.label 'Remember me on this computer', :for => 'user_remember_me'
 
   %p#signin_button
-    = f.submit 'Sign in'
+    = f.submit 'Sign in', :class => 'button'
 
 #devise-links
   = render :partial => 'devise/shared/links'
