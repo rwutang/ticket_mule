@@ -12,7 +12,6 @@ group :development, :test do
   gem 'cucumber-rails'
   gem 'database_cleaner'
   gem 'factory_girl_rails'
-  gem 'ffaker'
   gem 'haml-rails'
   gem 'launchy'
   gem 'pickler'
