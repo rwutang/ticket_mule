@@ -5,7 +5,7 @@ gem 'devise'
 gem 'haml'
 gem 'pg'
 gem 'rails'
-gem 'rake', '0.8.7'
+gem 'rake'
 
 group :development, :test do
   gem 'capybara'
