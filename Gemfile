@@ -12,11 +12,10 @@ group :development, :test do
   gem 'cucumber-rails'
   gem 'database_cleaner'
   gem 'factory_girl_rails'
-  gem 'haml-rails'
   gem 'launchy'
   gem 'pickler'
   gem 'rspec-rails'
-  gem 'ruby-debug19'
+  gem 'ruby-debug19', require: 'ruby-debug'
   gem 'shoulda'
   gem 'spork'
 end
