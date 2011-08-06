@@ -13,7 +13,6 @@ group :development, :test do
   gem 'database_cleaner'
   gem 'fabrication'
   gem 'launchy'
-  gem 'pickler'
   gem 'rspec-rails'
   gem 'ruby-debug19', require: 'ruby-debug'
   gem 'shoulda'
