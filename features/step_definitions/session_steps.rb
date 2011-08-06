@@ -1,5 +1,5 @@
 Given /^I (?:am signed|sign) in as an? (\w+)$/ do |role|
-  @me = Factory(:user)
+  @me = Fabricate(:user)
   Given 'I am signed in'
 end
 

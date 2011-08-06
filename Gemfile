@@ -11,7 +11,7 @@ group :development, :test do
   gem 'capybara'
   gem 'cucumber-rails'
   gem 'database_cleaner'
-  gem 'factory_girl_rails'
+  gem 'fabrication'
   gem 'launchy'
   gem 'pickler'
   gem 'rspec-rails'
