@@ -35,6 +35,11 @@ Devise.setup do |config|
   # These keys will be downcased upon creating or modifying a user and when used
   # to authenticate or find a user. Default is :email.
   config.case_insensitive_keys = [ :email ]
+  
+  # Configure which authentication keys should have whitespace stripped.
+  # These keys will have whitespace before and after removed upon creating or
+  # modifying a user and when used to authenticate or find a user. Default is :email.
+  config.strip_whitespace_keys = [ :email ]
 
   # Tell if authentication through request.params is enabled. True by default.
   # config.params_authenticatable = true
@@ -48,13 +53,18 @@ Devise.setup do |config|
   # The realm used in Http Basic Authentication. "Application" by default.
   # config.http_authentication_realm = "Application"
 
+  # It will change confirmation, password recovery and other workflows
+  # to behave the same regardless if the e-mail provided was right or wrong.
+  # Does not affect registerable.
+  # config.paranoid = true
+
   # ==> Configuration for :database_authenticatable
   # For bcrypt, this is the cost for hashing the password and defaults to 10. If
   # using other encryptors, it sets how many times you want the password re-encrypted.
   config.stretches = 10
 
   # Setup a pepper to generate the encrypted password.
-  # config.pepper = "5e7f0c6f4ff2e37ac4ff0fb6b7c779719d4249faab7a6c6f9e84eeb8258787736ed0459c72bda1a4a5c2ab17d0cad40fdaf5fbf6fa118c66edeb4e8b89e71636"
+  # config.pepper = "872b5b80dba2f4c282bf2f89c758f7df34ef8b3af7bf8a3e31aeb6121c6a3c159ae5a52326a00f50800e9b4a7d83435084d9d67021df6ed1e1baf4b2f7c07d8a"
 
   # ==> Configuration for :confirmable
   # The time you want to give your user to confirm his account. During this time
@@ -174,8 +184,8 @@ Devise.setup do |config|
   # Explorer requests.
   # config.navigational_formats = [:"*/*", "*/*", :html]
 
-  # The default HTTP method used to sign out a resource. Default is :get.
-  # config.sign_out_via = :get
+  # The default HTTP method used to sign out a resource. Default is :delete.
+  config.sign_out_via = :delete
 
   # ==> OmniAuth
   # Add a new OmniAuth provider. Check the wiki for more information on setting

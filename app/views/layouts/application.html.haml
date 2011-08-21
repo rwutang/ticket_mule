@@ -8,6 +8,7 @@
     = csrf_meta_tag
   %body
     %header
+      = link_to 'Sign out', destroy_user_session_path, confirm: 'Really sign out?', method: :delete
     %article
       - flash.each do |name, msg|
         %div(class=name)= msg
